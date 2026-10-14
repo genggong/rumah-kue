@@ -1,0 +1,23 @@
+{
+  "name": "Rumah Kue - PHP + SQLite",
+  "image": "mcr.microsoft.com/devcontainers/php:8.3",
+  "features": {
+    "ghcr.io/devcontainers/features/php:1": {
+      "version": "8.3"
+    },
+    "ghcr.io/devcontainers/features/common-utils:2": {}
+  },
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y php8.3-sqlite3 && php -S 0.0.0.0:8898 &",
+  "forwardPorts": [8898],
+  "portsAttributes": {
+    "8898": {
+      "label": "Rumah Kue",
+      "onAutoForward": "openBrowser"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": ["bmewburn.vscode-intelephense-client"]
+    }
+  }
+}

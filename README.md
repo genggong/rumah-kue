@@ -6,6 +6,32 @@ Aplikasi manajemen pesanan untuk rumah produksi **"Rumah Kue"**: dari pemesan �
 
 ---
 
+## 🖼️ Preview (Screenshot UI)
+
+### 👨‍💼 Admin
+
+| Dashboard | Bahan Baku & Stok | Produk & Resep |
+|---|---|---|
+| ![Dashboard](docs/shots/01_dashboard_admin.png) | ![Bahan](docs/shots/02_bahan_baku.png) | ![Produk](docs/shots/03_produk.png) |
+
+| Kelola Pesanan | Detail Pesanan (cek bahan & stok) | Laporan |
+|---|---|---|
+| ![Kelola](docs/shots/05_kelola_pesanan.png) | ![Detail](docs/shots/06_detail_pesanan_admin.png) | ![Laporan](docs/shots/07_laporan.png) |
+
+### 👨‍🍳 Produksi
+
+| Antrian Produksi (urut hari & jam) |
+|---|
+| ![Antrian](docs/shots/12_produksi_antrian.png) |
+
+### 🧑‍💼 Pemesan
+
+| Buat Pesanan | Riwayat & Detail |
+|---|---|
+| ![Buat](docs/shots/10_pemesan_buat_pesanan.png) | ![Detail](docs/shots/11_pemesan_detail_pesanan.png) |
+
+---
+
 ## 🔑 Akun Login (untuk Evaluasi)
 
 | Role | Username | Password | Halaman yang Bisa Diakses |
